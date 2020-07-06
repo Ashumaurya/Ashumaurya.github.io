@@ -1,0 +1,155 @@
+body{
+    font-family: serif;
+}
+/* ==================== Header-Start ===================== */
+/* Navbar style  */
+
+.nav-wrapper{
+    margin: 0px 100px ;
+}
+ nav li:hover{
+    background-color: #212121;
+
+}
+nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sidenav-trigger{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+}
+
+/*------ Navbar ends -----------*/
+
+/* Cover-style */
+.cover{
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.intro{
+    position: relative;
+    top:150px;
+}
+.into-headline{
+    padding: 20px;
+}
+.into-discription{
+    padding: 0px 0px 60px ;
+}
+
+.btn-large{
+    border: 1px solid #424242;
+}
+.btn-large:hover{
+    background-color : white !important;
+    color : black;
+}
+.cover::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+/* ------------ Cover ends ----------- */
+
+/* ==============Header-ends ===========================*/
+
+
+
+
+/* ==============Main-starts ================*/
+
+
+/* About me section */
+.about-me{
+    padding: 50px 0px;;
+}
+#about-me{
+    padding: 50px 0px;
+}
+
+.profile-image{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+/* Project Setion */
+.project-section{
+    padding: 50px 0px;
+}
+.project-section-heading{
+    padding: 50px 0;
+}
+
+.text-bold{
+    font-weight: 400 !important;
+}
+.text-bold-1{
+    font-weight: 300 !important;
+}
+
+/* More about me */
+.more-about-me{
+    padding: 50px;
+}
+.more-about-me-heading{
+    padding: 50px;
+}
+
+.circle-1{
+    border-color: transparent;
+    margin: 50px;
+    /* background-color: #9ccc9c ; */
+    height: 200px !important;
+    width: 200px !important;
+    /* border-radius: 50%; */
+}
+
+/* Social */
+.contact-section {
+    padding: 50px;
+}
+.contact-heading{
+    padding: 10px;
+}
+.resume-email{
+    padding: 50px 0;
+}
+
+.resume-card ,.email-card{
+    padding: 100px 0 !important;
+}
+.github , .linkedin ,.instagram {
+    display: inline-flex;
+    padding: 20px;
+  
+}
+
+.github-btn , .linkedin-btn , .instagram-btn{
+    border: 0px;
+}
+
+
+/* footer */
+.copyright{
+    margin: 0px 100px;
+}
+
+
+
+/* ==============Media Query=================== */
+
+@media only screen and (max-width: 900px) {
+    .nav-wrapper{
+        margin: 0px 0px 0px 0px;
+    }
+}
