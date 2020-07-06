@@ -150,6 +150,21 @@ nav ul::after{
 
 @media only screen and (max-width: 900px) {
     .nav-wrapper{
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px ;
+    }
+    
+
+}
+@media only screen and (max-width : 450px){
+    .brand-logo {
+        font-size: inherit !important;
+    }
+    .into-headline{
+        font-size: 30px ;
+    }
+}
+@media only screen and (max-width : 500px){
+    h2{
+        font-size: 35px ;
     }
 }
